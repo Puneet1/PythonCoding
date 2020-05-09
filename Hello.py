@@ -2,6 +2,7 @@
 # In Version two of the code let's accept input from the user
 
 print ("Hello and welcome to Python")
-var_x=raw_input("Please enter the value of x:")
-var_y=raw_input("Please enter the value of y:")
-print("The sum of x and y is :",var_x+var_y)
+var_x=input("Please enter the value of x:") #returns a string
+var_y=input("Please enter the value of y:") #returns a string
+var_z=float(var_x)+float(var_y)
+print("The sum of x and y is :",var_z)
